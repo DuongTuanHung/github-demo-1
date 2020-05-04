@@ -41,3 +41,4 @@ các bước
 tạo brach => checkout => sửa code => chuyển về master rồi merge => push
 
 // tại pull request
+có được không thì bảo
