@@ -1,0 +1,39 @@
+// từ gà đến pro git
+source control để quản lý code lưu lại những thay đổi
+3 khái niệm quan trọng: repo, commit, branch
+repo là lưu thông tin của code
+commit đồng bộ 
+branch
+
+// những lệnh git cơ bản
+git init tạo folder trong máy
+git clone  lấy data từ trên mạng về máy
+git pull    đồng bộ từ trên mạng về máy
+
+git add và git add .  sửa file vào folder git đc tạo từ git init
+git commit  để xác nhận hành động của git add
+git push để đồng bộ hóa từ máy lên trên mạng
+
+git log
+git log - decorate - graph - oneline
+
+quy trình 
+clone về máy để làm việc xogn rồi commit lên git
+
+các bước
+tạo repository 
+git status  kiểm tra trạng thái
+git add     thêm file
+git commit -m "abc"
+git remote add origin https://github.com/DuongTuanHung/github-demo-studygit.git     để đồng bộ với trên mạng
+git push -u origin master   push lên trên mạng
+
+cách thông thường pull về sửa code rồi commit lên
+
+// nâng cao
+git branch + tên branch     tạo cho mỗi chức năng riêng thành 1 nhánh rồi xong lại hợp nhánh
+git checkout + tên brach được muốn chuyển đến       chuyển đến brach cần làm việc
+git merge
+
+tạo pull request để có những thay đổi trong code
+
