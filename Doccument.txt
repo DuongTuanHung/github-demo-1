@@ -37,4 +37,7 @@ git merge
 
 tạo pull request để có những thay đổi trong code
 
-hung 123123213
+các bước 
+tạo brach => checkout => sửa code => chuyển về master rồi merge => push
+
+// tại pull request
